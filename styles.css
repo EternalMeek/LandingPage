@@ -1,0 +1,39 @@
+body{
+    box-sizing: border-box;
+    height: 100vh;
+    margin: 0;
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f2937;
+    margin: 0;
+    padding: 8px;
+}
+.brand{
+    font-size: 24px;
+    font-weight:bolder;
+    color: #f9faf8;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+a{
+    text-decoration: none;
+    color:#e5e7eb;
+    font-size: 18px;
+}
+
+.links{
+}
