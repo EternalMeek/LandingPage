@@ -2,13 +2,14 @@ body{
     box-sizing: border-box;
     height: 100vh;
     margin: 0;
+    font-family: roboto;
 }
 
 .page{
     display: flex;
     flex-direction: column;
 }
-
+/* CSS for Headers part */
 .header{
     display: flex;
     justify-content: space-around;
@@ -35,5 +36,59 @@ a{
     font-size: 18px;
 }
 
+
 .links{
+}
+/* CSS for Header ends **/
+
+
+/* CSS for first body part **/
+
+.greet{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+    padding: 80px 200px;
+    align-items: center;
+}
+
+.main{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin-bottom: 0;
+}
+
+.secondary{
+    margin-top: 0;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.greet button{
+    background-color: #3882f6;
+    border:none;
+}
+button{
+    border-radius: 9px;
+    padding: 8px 36px;
+    color: #e5e7eb;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.left{
+    flex-wrap: wrap;
+}
+
+.right{
+    border: #ffffff;
+    height: 250px;
+    width: 450px;
+    background-color: grey;
+    align-items: center;
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: center;
+    color: #e5e7eb;
 }
