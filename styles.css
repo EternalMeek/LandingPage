@@ -42,9 +42,9 @@ a{
 /* CSS for Header ends **/
 
 
-/* CSS for first body part **/
+/* CSS for Section 1 **/
 
-.greet{
+.sec1{
     display: flex;
     justify-content: space-around;
     background-color: #1f2937;
@@ -65,7 +65,7 @@ a{
     color: #e5e7eb;
 }
 
-.greet button{
+.sec1 button{
     background-color: #3882f6;
     border:none;
 }
@@ -82,7 +82,6 @@ button{
 }
 
 .right{
-    border: #ffffff;
     height: 250px;
     width: 450px;
     background-color: grey;
@@ -92,3 +91,42 @@ button{
     justify-content: center;
     color: #e5e7eb;
 }
+
+/* CSS for Section 1 ends **/
+
+
+/* CSS for Section 2 **/
+
+.sec2{
+    padding-bottom: 100px;
+}
+
+.title{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+    padding: 50px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 50px; /* Spacing between each image */
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 150px; /* Align image and text below */
+}
+
+.holder{
+    height: 150px;
+    width: 150px;
+    border: 2px solid #3882f6;
+    border-radius: 15px;
+}
+
+/* CSS for Section 2 ends **/
