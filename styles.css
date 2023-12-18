@@ -9,15 +9,29 @@ body{
     display: flex;
     flex-direction: column;
 }
+
+
 /* CSS for Headers part */
+.headerbg{
+    background-color: #1f2937;
+    border: 2px solid red;
+}
 .header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #1f2937;
-    margin: 0;
     padding: 8px;
+    border: 2px solid green;
 }
+
+.logo{
+    font-family: 'Yuji Hentaigana Akebono', cursive;
+    border: 2px solid #f9faf8;
+    padding: 2px 9px;
+    color: #e3bb17;
+    border-radius: 360px;
+}
+
 .brand{
     font-size: 24px;
     font-weight:bolder;
@@ -45,11 +59,17 @@ a{
 /* CSS for Section 1 **/
 
 .sec1{
-    display: flex;
-    justify-content: space-around;
     background-color: #1f2937;
     padding: 80px 200px;
+    border: 2px solid red;
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
     align-items: center;
+    gap: 50px;
+    border: 2px solid green;
 }
 
 .main{
@@ -99,6 +119,7 @@ button{
 
 .sec2{
     padding-bottom: 100px;
+    border: 2px solid red;
 }
 
 .title{
@@ -109,10 +130,11 @@ button{
     padding: 50px;
 }
 
-.container{
+.container2{
     display: flex;
     justify-content: center;
     gap: 50px; /* Spacing between each image */
+    border: 2px solid green;
 }
 
 .info{
