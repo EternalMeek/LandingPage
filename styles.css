@@ -135,6 +135,8 @@ button{
     justify-content: center;
     gap: 50px; /* Spacing between each image */
     border: 2px solid green;
+    width: 1200px;
+    margin: auto;
 }
 
 .info{
@@ -152,3 +154,37 @@ button{
 }
 
 /* CSS for Section 2 ends **/
+
+/* CSS for section 3 **/
+
+.sec3{
+    background-color: #e5e7eb;
+    padding: 50px 100px 50px 100px;
+    padding: 50px 80px;
+}
+
+.container3{
+    width:700px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+}
+
+.quote{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight:100;
+    font-style: italic;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.author{
+    display: flex;
+    justify-content: end;
+    font-weight: 700;
+    font-size: 24px;
+    align-items: end;
+
+}
