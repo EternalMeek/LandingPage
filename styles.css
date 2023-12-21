@@ -86,7 +86,6 @@ a{
 }
 
 .sec1 button{
-    background-color: #3882f6;
     border:none;
 }
 button{
@@ -95,6 +94,7 @@ button{
     color: #e5e7eb;
     font-weight: 600;
     font-size: 16px;
+    background-color: #3882f6;
 }
 
 .left{
@@ -187,5 +187,38 @@ button{
     font-weight: 700;
     font-size: 24px;
     align-items: end;
-
 }
+
+/* CSS for section 3 ends **/
+
+/* CSS for section 4 **/
+
+.sec4{
+    padding: 50px 100px;
+}
+
+.container4{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #3882f6;
+    align-items: center;
+    border: 2px solid green;
+}
+
+.recruit{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 2px solid red;
+}
+.recruit h3{
+    margin-bottom: 0px;
+}
+.recruit p{
+    margin-top: 0px;
+}
+.sec4 button{
+    border: 2px solid #fff;
+}
+
+/* CSS for section 4 ends **/
